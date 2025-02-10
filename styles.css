@@ -226,3 +226,15 @@ table.res {
 #about{
 color: #f6c453;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
